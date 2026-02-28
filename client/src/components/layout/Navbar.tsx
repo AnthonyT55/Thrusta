@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2">
-            <img src={logo} alt="Aeroweb Designs Logo" className="h-12 w-auto object-contain" />
+            <img src={logo} alt="Aeroweb Designs Logo" className="h-16 w-auto object-contain transition-transform hover:scale-105" />
           </a>
         </Link>
         
