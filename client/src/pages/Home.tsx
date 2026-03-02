@@ -34,11 +34,6 @@ export default function Home() {
             <Button size="lg" className="h-14 px-8 text-lg bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_30px_rgba(0,255,255,0.4)] transition-all hover:scale-105 w-full sm:w-auto font-semibold">
               Schedule your call now <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Link href="/gallery">
-              <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-white/20 hover:bg-white/5 w-full sm:w-auto font-medium">
-                View our work
-              </Button>
-            </Link>
           </div>
         </div>
       </section>

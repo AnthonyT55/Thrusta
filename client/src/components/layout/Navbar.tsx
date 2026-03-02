@@ -21,9 +21,6 @@ export function Navbar() {
           <Link href="/about">
             <a className={`transition-colors hover:text-primary ${location === "/about" ? "text-primary" : "text-muted-foreground"}`}>About</a>
           </Link>
-          <Link href="/gallery">
-            <a className={`transition-colors hover:text-primary ${location === "/gallery" ? "text-primary" : "text-muted-foreground"}`}>Gallery</a>
-          </Link>
         </div>
         
         <Button className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 font-semibold shadow-[0_0_20px_rgba(0,255,255,0.3)] hover:scale-105 transition-all">
